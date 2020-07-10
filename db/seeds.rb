@@ -7,7 +7,7 @@ puts "Database is clean"
     name: Faker::Restaurant.name,
     address: Faker::Address.street_address,
     phone_numer: Faker::PhoneNumber,
-    category: ["chinese", "italian", "japanese", "french"].sample,
+    category: ["chinese", "italian", "japanese", "french", "belgian"].sample,
   )
  puts "restaurant #{restaurant.id} is created"
 end
